@@ -2,3 +2,18 @@ sudo apt-get install nodejs
 sudo npm install express
 sudo npm install express-generator -g
 sudo express conFusionServer
+
+
+
+mongoDB
+
+sudo service mongod stop
+sudo mongod
+sudo mongo
+
+db
+use conFusion
+db
+db.help()
+
+db.dishes.insert({ name: "Uthappizza", description: "Test" });
