@@ -1,0 +1,4 @@
+sudo apt-get install nodejs
+sudo npm install express
+sudo npm install express-generator -g
+sudo express conFusionServer
